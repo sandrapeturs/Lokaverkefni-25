@@ -2,7 +2,7 @@
 
 Ég bjó til GOGN möppu og í henni möppurnar Sameign, Forritun og Markadmal.
 
-GOGN mappan:
+**GOGN** mappan:
 cd /
 sudo mkdir GOGN
 cd

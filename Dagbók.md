@@ -76,9 +76,9 @@ Búið til hópana (e.group) sem nefndir eru í töflunni hér að ofan.
 * sudo chgrp forritun Forritun
 * sudo chgrp markadsmal Markadsmal
 * ls -l
-* chmod o-rx Forritun
-* chmod o-rx Markadsmal
-* chmod o-rx Sameign
+* chmod o-rx Forritun (lokar á aðgang fyrir aðilla sem eru ekki í Forritun möppuni)
+* chmod o-rx Markadsmal (lokar á aðgang fyrir aðilla sem eru ekki í Markadsmal möppuni)
+* chmod o-rx Sameign (lokar á aðgang fyrir aðilla sem eru ekki í Sameign möppuni)
 * ls -l
 
 skipun sem lætur alla endur gera password í fyrsta skypti sem maður logar in:

@@ -57,9 +57,8 @@ Lausn: …
 * **Is the information correct? [Y/n]** Y
 * (endur taka fyrir alla notendur)
 
-Hópar:
-Búið til hópana (e.group) sem nefndir eru í töflunni hér að ofan.
-### #4 Lausn:
+### Hópar:
+### #4 Lausn - Búið til hópana (e.group) sem nefndir eru í töflunni hér að ofan: 
 * :/GOGN$ sudo groupadd allir
 * :/GOGN$ sudo groupadd forritun
 * :/GOGN$ sudo groupadd markadsmal
@@ -81,8 +80,7 @@ Búið til hópana (e.group) sem nefndir eru í töflunni hér að ofan.
 * chmod o-rx Sameign (lokar á aðgang fyrir aðilla sem eru ekki í Sameign möppuni)
 * ls -l
 
-skipun sem lætur alla endur gera password í fyrsta skypti sem maður logar in:
-### #5 lausn
+### #5 lausn - skipun sem lætur alla endur gera password í fyrsta skypti sem maður logar in:
 * sudo tail /etc/passwd
 * sudo xhange -d 0 aslaug
 * sudo xhange -d 0 bjorn

@@ -5,7 +5,7 @@
 
 ### Möppur:
 Búið til möppu GÖGN á skráarkerfis rótina (/) og svo möppurnar Sameign, Forritun og Markadsmal í GÖGN.
-#1 Lausn - Búa til GOGN möppuna: 
+### #1 Lausn - Búa til GOGN möppuna: 
 * cd /
 * ls 
 * sudo mkdir GOGN
@@ -15,7 +15,7 @@ Búið til möppu GÖGN á skráarkerfis rótina (/) og svo möppurnar Sameign, 
 * sudo chown ubuntu GOGN
 * ls -l
 
-#2 Lausn - Búa til möppurnar Sameign, Forritun og Markadsmal í GÖGN möppuna:
+### #2 Lausn - Búa til möppurnar Sameign, Forritun og Markadsmal í GÖGN möppuna:
 * cd GOGN
 * mkdir Sameign
 * ls (gá hvort það virkaði)
@@ -34,7 +34,7 @@ Heimasvæði hvers notanda séu möppurnar Vinna og Leikir ásamt vísun (e. lin
 Lausn: …
 Notendur þurfi að breyta um lykilorð þegar þeir skrá sig inn í fyrsta skipti.
 Lausn: …
-#3 Lausn: 
+### #3 Lausn: 
 Áslaug:
 * sudo adduser aslaug
 * **New password:** pass.123
@@ -55,11 +55,11 @@ Björn:
 * **Home Phone [ ]:**
 * **Other [ ]:**
 * **Is the information correct? [Y/n]** Y
-…
+* (endur taka fyrir alla notendur)
 
 Hópar:
 Búið til hópana (e.group) sem nefndir eru í töflunni hér að ofan.
-#4 Lausn:
+### #4 Lausn:
 * :/GOGN$ sudo groupadd allir
 * :/GOGN$ sudo groupadd forritun
 * :/GOGN$ sudo groupadd markadsmal
@@ -82,7 +82,7 @@ Búið til hópana (e.group) sem nefndir eru í töflunni hér að ofan.
 * ls -l
 
 skipun sem lætur alla endur gera password í fyrsta skypti sem maður logar in:
-#5 lausn
+### #5 lausn
 * sudo tail /etc/passwd
 * sudo xhange -d 0 aslaug
 * sudo xhange -d 0 bjorn

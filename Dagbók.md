@@ -35,7 +35,7 @@ Lausn: …
 Notendur þurfi að breyta um lykilorð þegar þeir skrá sig inn í fyrsta skipti.
 Lausn: …
 ### #3 Lausn: 
-Áslaug:
+#### Áslaug:
 * sudo adduser aslaug
 * **New password:** pass.123
 * **Retype new password:** pass.123
@@ -45,7 +45,7 @@ Lausn: …
 * **Home Phone [ ]:**
 * **Other [ ]:**
 * **Is the information correct? [Y/n]** Y
-Björn:
+#### Björn:
 * sudo adduser bjorn
 * **New password:** pass.123
 * **Retype new password:** pass.123

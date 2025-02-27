@@ -1,5 +1,8 @@
 # Dagbók
 
+* **Bold** = kóðinn hjá tölvuni
+* Normal = svör
+
 ### Möppur:
 Búið til möppu GÖGN á skráarkerfis rótina (/) og svo möppurnar Sameign, Forritun og Markadsmal í GÖGN.
 #1 Lausn - Búa til GOGN möppuna: 

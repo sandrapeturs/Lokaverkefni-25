@@ -95,3 +95,9 @@ Lausn: …
 * sudo usermod -aG sudo aslaug
 * groups aslaug
 * **aslaug : aslaug sudo users allir forritun markadsmal**
+
+### #7 lausn - læsa fyrir Erlu og Erlend:
+* sudo passwd -l erla
+* sudo passwd -l erlendur
+* sudo grep erla cat /etc/shadow
+* sudo grep erlendur cat /etc/shadow

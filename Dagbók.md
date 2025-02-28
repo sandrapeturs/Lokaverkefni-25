@@ -91,3 +91,7 @@ Lausn: …
 * sudo xhange -d 0 erla
 * sudo xhange -d 0 erlendur
 
+### #6 lausn - gefa Áslaugu sudo réttindi:
+* sudo usermod -aG sudo aslaug
+* groups aslaug
+* **aslaug : aslaug sudo users allir forritun markadsmal**

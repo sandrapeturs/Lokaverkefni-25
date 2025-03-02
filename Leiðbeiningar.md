@@ -1,6 +1,6 @@
 # Leiðbeiningar fyrir Áslaugu
 
-* **Bold** = kóðinn hjá tölvuni
+* **Bold** = kóðinn hjá tölvunni
 * *Italic* = takkar
 * Normal = lausn/það sem þú átt að skrifa
 
@@ -10,10 +10,10 @@
 * **New password:** pass.123 - skrá lykilorð
 * **Retype new password:** pass.123 - endurtaka lykilorð
 * **Full Name [ ]:** [fornafn] [eftirnafn] - skrá fullt nafn
-* **Room Number [ ]:** - má slepa með því að smella á enter takann
-* **Work Phone [ ]:** - má slepa með því að smella á enter takann
-* **Home Phone [ ]:** - má slepa með því að smella á enter takann
-* **Other [ ]:** - má slepa með því að smella á enter takann
+* **Room Number [ ]:** - má slepa með því að smella á enter takkann
+* **Work Phone [ ]:** - má slepa með því að smella á enter takkann
+* **Home Phone [ ]:** - má slepa með því að smella á enter takkann
+* **Other [ ]:** - má slepa með því að smella á enter takkann
 * **Is the information correct? [Y/n]** Y - stórt Y fyrir já
 
 #### Skrá í hópa:

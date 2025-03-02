@@ -1,7 +1,7 @@
 # Leiðbeiningar fyrir Áslaugu
 
 * **Bold** = kóðinn hjá tölvuni
-* *Italic* = takar
+* *Italic* = takkar
 * Normal = lausn/það sem þú átt að skrifa
 
 ### Búa til notendur og setja í rétta hópa
@@ -21,8 +21,8 @@
 * **allir:x:1010:**aslaug,bjorn,bryndis,elin,ellert,elsa,erla,erlendur,[nafn] - skrá í réttan hóp (allir hópurinn)
 * **forritun:x:1011:**aslaug,bjorn,bryndis,elin,ellert,[nafn] - skrá í réttan hóp (forritun hópurinn)
 * **markadsmal:x:1012:**aslaug,elsa,erla,erlendur,[nafn] - skrá í réttan hóp (markadsmal hópurinn)
-* *[control] taki + X* - (til að fara út ú pico)
-* *[enter] taki*
+* *[control] takki + X* - (til að fara út ú pico)
+* *[enter] takki*
 * id - sínir id hjá notanda
 * ls -l - sínir lista
 * sudo xhange -d 0 [nafn] - lætur notanda þurfa að endur gera lykilorð

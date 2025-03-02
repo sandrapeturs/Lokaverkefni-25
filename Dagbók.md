@@ -101,3 +101,11 @@ Lausn: …
 * sudo passwd -l erlendur
 * sudo grep erla cat /etc/shadow
 * sudo grep erlendur cat /etc/shadow
+
+### #8 lausn - setja möppurnar Vinna og Leikir í heimasvæði hvers notanda, ásamt vísun á möppurnar sem eru í GÖGN möppunni
+* sudo mkdir /home/aslaug/Vinna /home/aslaug/Leikir
+* sudo ln -s /GOGN /home/aslaug/GOGN
+* sudo chown -h aslaug:aslaug /home/aslaug/GOGN
+* sudo chown aslaug:aslaug /home/aslaug/Vinna /home/aslaug/Leikir
+* sudo chmod 700 /home/aslaug/Vinna /home/aslaug/Leikir
+* sudo ls -l /home/aslaug

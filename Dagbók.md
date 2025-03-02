@@ -109,3 +109,4 @@ Lausn: …
 * sudo chown aslaug:aslaug /home/aslaug/Vinna /home/aslaug/Leikir
 * sudo chmod 700 /home/aslaug/Vinna /home/aslaug/Leikir
 * sudo ls -l /home/aslaug
+* (endur taka fyrir hvern notanda)

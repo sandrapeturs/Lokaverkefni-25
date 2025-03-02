@@ -32,7 +32,7 @@
 * sudo passwd -u erlendur - *til að opna aðgang fyrir **Erlend***
 * sudo grep erla cat /etc/shadow - *til að gá hvort skipunin virkaði fyrir **Erlu***
 * sudo grep erlendur cat /etc/shadow - *til að gá hvort skipunin virkaði fyrir **Erlend***
-* mynd:
+#### mynd:
 * Læst - Þú checkar hvort það sé ! (ef það er ! þá er læst):
 <img width="1068" alt="Screenshot 2025-02-28 at 10 11 59" src="https://github.com/user-attachments/assets/4a82059a-5d1c-4d7e-88d2-1c94f37b639b" />
 

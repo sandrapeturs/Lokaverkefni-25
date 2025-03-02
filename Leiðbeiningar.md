@@ -1,7 +1,32 @@
 # Leiðbeiningar fyrir Áslaugu
 
+* **Bold** = kóðinn hjá tölvuni
+* *Italic* = takar
+* Normal = lausn/það sem þú átt að skrifa
+
 ### Búa til notendur og setja í rétta hópa
-* ...
+#### Búa til notanda:
+* sudo adduser [nafn] - þú setur nafnið á nýa notenda í stað [nafn]
+* **New password:** pass.123 - skrá lykilorð
+* **Retype new password:** pass.123 - endurtaka lykilorð
+* **Full Name [ ]:** [fornafn] [eftirnafn] - skrá fullt nafn
+* **Room Number [ ]:** - má slepa með því að smella á enter takann
+* **Work Phone [ ]:** - má slepa með því að smella á enter takann
+* **Home Phone [ ]:** - má slepa með því að smella á enter takann
+* **Other [ ]:** - má slepa með því að smella á enter takann
+* **Is the information correct? [Y/n]** Y - stórt Y fyrir já
+
+#### Skrá í hópa:
+* sudo pico /etc/group - opnar text editor
+* **allir:x:1010:**aslaug,bjorn,bryndis,elin,ellert,elsa,erla,erlendur,[nafn] - skrá í réttan hóp (allir hópurinn)
+* **forritun:x:1011:**aslaug,bjorn,bryndis,elin,ellert,[nafn] - skrá í réttan hóp (forritun hópurinn)
+* **markadsmal:x:1012:**aslaug,elsa,erla,erlendur,[nafn] - skrá í réttan hóp (markadsmal hópurinn)
+* *[control] taki + X* - (til að fara út ú pico)
+* *[enter] taki*
+* id - sínir id hjá notanda
+* ls -l - sínir lista
+* sudo xhange -d 0 [nafn] - lætur notanda þurfa að endur gera lykilorð
+
 ### Virkjað aðganga Erlendar og Erlu.
 * sudo passwd -u erla - *til að opna aðgang fyrir **Erlu***
 * sudo passwd -u erlendur - *til að opna aðgang fyrir **Erlend***

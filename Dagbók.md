@@ -58,7 +58,7 @@ Lausn: …
 * (endur taka fyrir alla notendur)
 
 ### Hópar:
-### #4 Lausn - Búið til hópana (e.group) sem nefndir eru í töflunni hér að ofan: 
+### #4 Lausn - Búið til hópana (e.group) sem nefndir eru í töflunni: 
 * :/GOGN$ sudo groupadd allir
 * :/GOGN$ sudo groupadd forritun
 * :/GOGN$ sudo groupadd markadsmal
